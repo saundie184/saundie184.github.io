@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Saundie Weiss</title>
-    <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <link>http://localhost:8080</link>
+    <atom:link href="http://saundie.com/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>http://saundie.com</link>
     <description>My personal site, blog, and portfolio.</description>
     <pubDate>Tue, 09 Feb 2016 17:00:00 -0700</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
       <title>New features in ES6</title>
-      <link>http://localhost:8080/articles/es6/</link>
+      <link>http://saundie.com/articles/es6/</link>
       <pubDate>Tue, 09 Feb 2016 17:00:00 -0700</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/es6/</guid>
+      <guid isPermaLink="true">http://saundie.com/articles/es6/</guid>
       <author></author>
       <description>&lt;p&gt;We started exploring the new features that rolled out in ES6. We’re using &lt;a href=&quot;https://babeljs.io/&quot;&gt;Babel, a JavaScript complier&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
@@ -33,9 +33,9 @@
     </item>
     <item>
       <title>Galvanize Ping Pong League</title>
-      <link>http://localhost:8080/articles/gppl/</link>
+      <link>http://saundie.com/articles/gppl/</link>
       <pubDate>Thu, 07 Jan 2016 17:00:00 -0700</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/gppl/</guid>
+      <guid isPermaLink="true">http://saundie.com/articles/gppl/</guid>
       <author></author>
       <description>&lt;p&gt;Before the holidays, we completed another project. This was a group project, and it was really cool to work with a team. We created Galvanize Ping Pong League (GPPL).&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
@@ -57,9 +57,9 @@
     </item>
     <item>
       <title>Intro to server-side development, OOP, and NodeJS</title>
-      <link>http://localhost:8080/articles/serverside/</link>
+      <link>http://saundie.com/articles/serverside/</link>
       <pubDate>Wed, 09 Dec 2015 17:00:00 -0700</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/serverside/</guid>
+      <guid isPermaLink="true">http://saundie.com/articles/serverside/</guid>
       <author></author>
       <description>&lt;p&gt;We are now learning server side development! I have a feeling things are going to get exciting now. We started talking about Object-Oriented Programming (OOP) and pair-programming.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
@@ -84,9 +84,9 @@
     </item>
     <item>
       <title>What in the World</title>
-      <link>http://localhost:8080/articles/whatintheworld/</link>
+      <link>http://saundie.com/articles/whatintheworld/</link>
       <pubDate>Tue, 24 Nov 2015 17:00:00 -0700</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/whatintheworld/</guid>
+      <guid isPermaLink="true">http://saundie.com/articles/whatintheworld/</guid>
       <author></author>
       <description>&lt;p&gt;My first project!&lt;/p&gt;
 &lt;p&gt;This application is designed to engage middle school students in current news. They will be able to search for news stories by choosing their own search term. Stories are displayed with the newest items on the top. The publication date is also shown, so students can immediately see which stories were published today.&lt;/p&gt;
@@ -100,9 +100,9 @@
     </item>
     <item>
       <title>The DOM, Bootstrap, and UI/UX</title>
-      <link>http://localhost:8080/articles/dom/</link>
+      <link>http://saundie.com/articles/dom/</link>
       <pubDate>Thu, 12 Nov 2015 17:00:00 -0700</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/dom/</guid>
+      <guid isPermaLink="true">http://saundie.com/articles/dom/</guid>
       <author></author>
       <description>&lt;p&gt;Wow. It has been a very BUSY last two weeks. Almost everyday, we learn an entirely new concept. I’m going to be using this blog to document what I am learning. It’s going to be a crazy ride for sure, but it’s starting to get exciting.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
@@ -117,9 +117,9 @@
     </item>
     <item>
       <title>First week of gSchool</title>
-      <link>http://localhost:8080/articles/first/</link>
+      <link>http://saundie.com/articles/first/</link>
       <pubDate>Thu, 29 Oct 2015 18:00:00 -0600</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/first/</guid>
+      <guid isPermaLink="true">http://saundie.com/articles/first/</guid>
       <author></author>
       <description>&lt;p&gt;This is the end of week one in gSchool, and I’m learning so many new things. Every day, we are introduced to new content and then we immediately are asked to apply it.&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
