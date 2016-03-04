@@ -6,31 +6,28 @@
     <meta name="viewport" content="width=device-width">
     <title>Saundie Weiss
     </title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <link rel="alternate" href="http://saundie.com/feed.xml" type="application/rss+xml" title="My personal site, blog, and portfolio.">
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!--     Stylesheets-->
-    <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="/css/ct-paper.css" rel="stylesheet">
-    <link href="/css/demo.css" rel="stylesheet">
-    <link href="/css/examples.css" rel="stylesheet">
     <!--     Fonts and icons-->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div id="register-navbar" role="navigation" class="navbar navbar-relative">
       <div class="container">
-        <div class="navbar-header"></div><a href="http://saundie.com" class="navbar-brand active-page">Saundie Weiss</a>
-        <div id="idnavigation-example-2"></div>
-        <button data-toggle="collapse" data-target=".navHeaderCollapse" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-        <div class="collapse navbar-collapse navHeaderCollapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="/portfolio.html" class="btn btn-simple active-page">Portfolio</a></li>
-            <li><a href="/blog.html" class="btn btn-simple">Blog</a></li>
-          </ul>
-        </div>
+        <div class="navbar-header">
+          <button data-toggle="collapse" data-target=".navbar-collapse" type="button" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        </div><a href="http://saundie.com" class="navbar-brand active-page hidden-xs">Saundie Weiss
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://saundie.com" class="btn btn-simple visible-xs">Home</a></li>
+              <li><a href="/portfolio.html" class="btn btn-simple active-page">Portfolio</a></li>
+              <li><a href="/blog.html" class="btn btn-simple">Blog</a></li>
+            </ul>
+          </div></a>
       </div>
     </div>
     <hr class="hidden-xs">
@@ -58,28 +55,25 @@
                   <p class="post-meta">View screencast</p></a><a href="https://galvanize-ping-pong-league.herokuapp.com/"><img src="/images/gppl_screenshot.png" class="img-thumbnail"></a>
                 <hr>
               </div>
-              <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><a href="https://github.com/IanSmith89/dreamStream">
-                    <h4 class="post-title">DreamStream</h4></a>
-                  <p class="post-meta">Technologies used: HTML, CSS, SASS, JavaScript, Ionic, Angular, IBM Watson Personality Insights API, D3 Data Visualizations, d3-cloud by Jason Davies, HighCharts</p>
-                  <p class="post-subtitle">Our dream tracker application helps you keep track of your dreams. You can describe the each dream and give it a rating. You can also track your mood (overall life stress) at that time and the duration of sleep. All data inputs are calculated and visualized in charts to show average mood, average rating, and mood compared to rating. The data is analyzed by Watson Personality Insights API and shows a pie chart of how your dreams reflect your personality. The common words from the dreams are populated into a word cloud. Filters are added to exclude common words like "a, the, and, etc." You can also add custom word filters to exclude any other common words that you do not want to see in your word cloud. This was a group project, and I focused on setting up the Ionic framework, building the D3 Word Cloud, adding custom filters, and setting up routes.</p><a href="https://github.com/IanSmith89/dreamStream">
-                    <p class="post-meta">View Github repo</p></a><a href=" https://vimeo.com/157201586">
-                    <p class="post-meta">View screencast</p></a><a href="https://github.com/IanSmith89/dreamStream"><img src="/images/DreamStream%20screenshots.png" class="img-thumbnail"></a>
-                  <hr>
-                </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><a href="https://github.com/IanSmith89/dreamStream">
+                  <h4 class="post-title">DreamStream</h4></a>
+                <p class="post-meta">Technologies used: HTML, CSS, SASS, JavaScript, Ionic, Angular, IBM Watson Personality Insights API, D3 Data Visualizations, d3-cloud by Jason Davies, HighCharts</p>
+                <p class="post-subtitle">Our dream tracker application helps you keep track of your dreams. You can describe the each dream and give it a rating. You can also track your mood (overall life stress) at that time and the duration of sleep. All data inputs are calculated and visualized in charts to show average mood, average rating, and mood compared to rating. The data is analyzed by Watson Personality Insights API and shows a pie chart of how your dreams reflect your personality. The common words from the dreams are populated into a word cloud. Filters are added to exclude common words like "a, the, and, etc." You can also add custom word filters to exclude any other common words that you do not want to see in your word cloud. This was a group project, and I focused on setting up the Ionic framework, building the D3 Word Cloud, adding custom filters, and setting up routes.</p><a href="https://github.com/IanSmith89/dreamStream">
+                  <p class="post-meta">View Github repo</p></a><a href=" https://vimeo.com/157201586">
+                  <p class="post-meta">View screencast</p></a><a href="https://github.com/IanSmith89/dreamStream"><img src="/images/DreamStream%20screenshots.png" class="img-thumbnail"></a>
+                <hr>
               </div>
             </div>
+          </div>
+          <div class="container">
+            <div class="modal-body"><a href="https://github.com/saundie184" class="btn btn-simple"><i class="fa fa-github fa-2x"></i></a><a href="https://www.linkedin.com/in/saundieweiss" class="btn btn-simple"><i class="fa fa-linkedin fa-2x"></i></a><a href="mailto:saundieweiss@gmail.com" class="btn btn-simple"><i class="fa fa-at fa-2x"></i></a></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="modal-body"><a href="https://github.com/saundie184" class="btn btn-simple"><i class="fa fa-github fa-2x"></i></a><a href="https://www.linkedin.com/in/saundieweiss" class="btn btn-simple"><i class="fa fa-linkedin fa-2x"></i></a><a href="mailto:saundieweiss@gmail.com" class="btn btn-simple"><i class="fa fa-at fa-2x"></i></a></div>
-    </div>
-    <footer class="footer-demo section-white">
-      <div class="container">
-        <div class="copyright pull-right"></div>
-      </div>
-    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </body>
 </html>

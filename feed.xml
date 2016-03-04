@@ -9,12 +9,12 @@
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
-      <title>Hello, Java</title>
+      <title>public static main(String [] args)</title>
       <link>http://saundie.com/articles/java/</link>
       <pubDate>Mon, 29 Feb 2016 17:00:00 -0700</pubDate>
       <guid isPermaLink="true">http://saundie.com/articles/java/</guid>
       <author></author>
-      <description>&lt;p&gt;Today was my first introduction into a new programming language. We are learning Java!&lt;/p&gt;
+      <description>&lt;p&gt;Today was my first introduction into a new programming language. We’re learning Java!&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;more&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;It’s quite different than JavaScript. Java is a strongly typed language and is not functional at all. It’s strictly object-oriented. It’s very explicit but also very verbose. I don’t want to say that it is going to be easier to learn, but I can definitely see how some of the concepts that I’ve already learned from JavaScript will apply. Or, at the very least, I will have something to compare it to.&lt;/p&gt;
 &lt;p&gt;We learned about classes, finally! From day one in gSchool, we have heard, “JavaScript does not have classes”, but now I’m learning a language that does. So, what’s the big deal? Guess I’ll find out. :)&lt;/p&gt;
